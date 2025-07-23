@@ -1,2 +1,13 @@
-# HashHawk
-HashHawk is a fast and efficient hash cracking tool using dictionary-based attacks. It supports multiple algorithms like MD5, SHA1, SHA256, etc. Designed for penetration testers and CTF warriors, with a no-nonsense CLI.
+# HashHawk – Bruteforce Hash Cracker 🪶
+
+**HashHawk** is a lightning-fast hash cracking tool built for CTFs and penetration testing missions.  
+Coded with pride by **KRISHNA** ⚔️
+
+## 🔍 Features
+- Supports `MD5`, `SHA1`, `SHA256`, `SHA512`
+- Reads from a wordlist
+- Simple CLI-based usage
+
+## 🚀 Usage
+```bash
+python hashhawk.py <hash> <algorithm> <wordlist.txt>
